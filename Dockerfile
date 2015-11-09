@@ -4,7 +4,7 @@ RUN apk add make automake autoconf gcc libtool curl libevent-dev libssl1.0 musl 
 
 EXPOSE 9150
 
-ENV VERSION 0.2.6.8
+ENV VERSION 0.2.6.10
 
 RUN curl https://dist.torproject.org/tor-${VERSION}.tar.gz | tar xz -C /tmp
 
